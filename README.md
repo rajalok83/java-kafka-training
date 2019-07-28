@@ -14,9 +14,10 @@ All the above libraries could be found under $KAFKA_HOME/libs/
 ### Setup steps:
 1. Downlad Apache Kafka zipped file from [Apache Kafka Website](https://kafka.apache.org/downloads)
 1. Unzip the downloaded file at a location
-1. Set __**KAFKA_HOME**__
-   1. __**On Windows:**__ Set KAFKA_HOME as user environment variable
-   1. __**On Unix:**__ Have command > export KAFKA_HOME=<PATH_TO_UNZIPPED_DIRECTORY> in either .bashrc or .profile
+1. Set KAFKA_HOME
+   1. **On Windows:** Set KAFKA_HOME as user environment variable
+   1. **On Unix:** Have below command in either ~/.bashrc or ~/.profile based on your environment and source it in 
+   > export KAFKA_HOME=<PATH_TO_UNZIPPED_DIRECTORY>
 
 Apache Kafka commands that could be helpful are:
 - **Start Zookeeper(default port:2181):**
