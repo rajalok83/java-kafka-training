@@ -40,5 +40,5 @@ Apache Kafka commands that could be helpful are:
   > ${KAFKA_HOME}/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic <topic_name>[ --partition <part_num> --offset <offset_id> --from-beginning --group ]
   - __**On Windows:**__
   > %KAFKA_HOME%\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic <topic_name>[ --partition <part_num> --offset <offset_id> --from-beginning --group ]
-  
+- **Start Light Console Consumer:**
   > kafka-run-class.bat kafka.tools.SimpleConsumerShell --broker-list localhost:9092 --topic <topic_name> --partition <part_num>
